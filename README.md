@@ -12,7 +12,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ### Links
 
 - Solution URL: [GitHub](https://github.com/C411M3J4X/nft-preview-card-component)
-- Live Site URL: [Netlify]()
+- Live Site URL: [Netlify](https://frontend-mentor-nft-card-project.netlify.app)
 ## Author
 
 - GitHub - [C411M3J4X](https://github.com/C411M3J4X)
