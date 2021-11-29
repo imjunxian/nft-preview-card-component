@@ -1,0 +1,157 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root{
+--soft-blue: hsl(215, 51%, 70%);
+--cyan: hsl(178, 100%, 50%);
+--blue-background: hsl(217, 54%, 11%);
+--blue-card: hsl(216, 50%, 16%);
+--blue-line: hsl(215, 32%, 27%);
+--white: hsl(0, 0%, 100%);
+}
+
+body{
+  background-color: var(--blue-background);
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 30px;
+}
+
+h2{
+  color: var(--white);
+  font-weight: 600;
+  transition: 0.2s;
+  margin-top: 6%;
+}
+
+h2.name:hover{
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+p{
+  color: var(--soft-blue);
+  font-weight: 300;
+  margin-bottom: 10px;
+  margin-top: 6%;
+}
+
+.card{
+  background-color: var(--blue-card);
+  max-width: 375px;
+  min-height: 530px;
+  padding: 30px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img{
+  width: 100%;
+  height: 50%;
+  background: url(images/image-equilibrium.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.card-img::after{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: url(images/icon-view.svg);
+  background:hsl(178, 100%, 50%, 0.5);
+  opacity: 0;
+  border-radius:10px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.card-img:hover::after{
+  opacity: 1;
+}
+
+.card-img img{
+  max-width: 100%;
+}
+
+.description{
+  width: 100%;
+  height: 50%;
+}
+
+.price-day{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8%;
+}
+
+.price-day span{
+  display: flex;
+  justify-content: center;
+}
+
+.price-day span img{
+  margin-right: 10px;
+}
+
+.price-day span:first-child{
+  color: var(--cyan);
+  font-weight: 600;
+}
+
+.price-day span:last-child{
+  color: var(--soft-blue);
+  font-weight: 500;
+}
+
+.hr-line{
+  background-color: var(--blue-line);
+  width: 100%;
+  height: 1px;
+  margin-top: 7%;
+  margin-bottom: 6%;
+}
+
+.avatar{
+  align-items: center;
+  display: flex;
+}
+
+.img-avatar{
+  background-color: white;
+  border: 2px solid var(--white);
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.avatar img{
+  width: 45px;
+  height: 45px;
+}
+
+.avatar span{
+  color: white;
+  transition: 0.2s;
+}
+
+.text-avatar{
+  margin-top: 10px;
+}
+
+.attribution{
+  margin-top: 20px;
+  color: white;
+}
+
