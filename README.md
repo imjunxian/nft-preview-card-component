@@ -3,13 +3,16 @@
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ### Screenshot
-#Desktop View
+# Desktop View
 ![](screenshot/Desktop_View.jpg)
-#Desktop View Image Hover
+
+# Desktop View Image Hover
 ![](screenshot/Desktop_View_Hover.jpg)
-#Desktop View Name Hover
+
+# Desktop View Name Hover
 ![](screenshot/Desktop_View_Hover_Name.jpg)
-#Mobile View
+
+# Mobile View
 ![](screenshot/Mobile_View.jpg)
 
 ### Links
