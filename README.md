@@ -17,10 +17,10 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/C411M3J4X/nft-preview-card-component)
+- Solution URL: [GitHub](https://github.com/imjunxian/nft-preview-card-component)
 - Live Site URL: [Netlify](https://frontend-mentor-nft-card-project.netlify.app)
 ## Author
 
-- GitHub - [C411M3J4X](https://github.com/C411M3J4X)
+- GitHub - [imjunxian](https://github.com/imjunxian)
 - Frontend Mentor - [@C411M3J4X](https://www.frontendmentor.io/profile/C411M3J4X)
 
